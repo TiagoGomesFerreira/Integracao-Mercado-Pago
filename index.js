@@ -26,7 +26,7 @@ app.get("/pagar", async (req, res) => {
                 unit_price: parseFloat(250)
             }
         ],
-        notification_url: "137.184.69.17/not",
+        notification_url: "https://137.184.69.17/not",
         payer: {
             email: emailDoPagador
         },
